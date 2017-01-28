@@ -1,0 +1,123 @@
+/*
+main css for entire site: background, text style, fonts, navigation, footer, header. All needs to be available for each page. Must be fixed.
+*/
+/*@import url('normalize.css')
+/*change the box model to border box on all elements*/
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightcyan;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100%;
+    overflow:scroll;
+    font-family: "Times Roman", Times, sans-serif;
+    line-height: 1.4em;
+    margin: 0px
+}
+.wrapper {
+    width: 940px;
+    margin: 20px auto 20px auto;
+}
+header {
+    height: 75px;
+    border: 1px solid black;
+    background: -moz-radial-gradient(center, ellipse cover,  #0a77d5 40%, #73b1e7 82%, #0a77d5 87%, #539fe1 100%, #87bcea 100%);
+    background: -webkit-radial-gradient(center, ellipse cover,  #0a77d5 40%,#73b1e7 82%,#0a77d5 87%,#539fe1 100%,#87bcea 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0a77d5', endColorstr='#87bcea',GradientType=1);
+    border-radius: 5px;
+    padding: 9px;
+}
+h1 {
+    text-align:center;
+    color: white;
+    font-size: 2vw;
+}
+nav.footer {
+    clear: both;
+    color: lightblue;
+    background-color: lightblue;
+    height: 40px;
+    margin: 0px;    
+}
+ul {
+    float: left;
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+nav.li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+    font-size: large;
+    color: red;
+}
+nav li a:hover, nav li a.current{
+    color: yellow;
+}
+section.services {
+    float: left;
+    width: 659px;
+}
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup {
+    margin-top: 40px;
+}
+fiqure {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid blue;
+}
+figcaption {
+    font-size: 90%;
+    text-align: left;
+}
+aside {
+    width: 230px;
+    float: left;
+}
+aside section a {
+    display: block;
+    padding: 10px;
+}
+aside section a:hover {
+    color: black;
+    background-color: lightblue;
+}
+a {
+    color: red;
+    text-decoration: none;    
+}        
+h2 {
+    font-weight: bold;
+    margin: 10px 2px 5px 0px;
+    padding: 0px;
+}
+h2, h3, h4, h5, h6 {
+    font-style: normal;
+}
+h3 {
+    margin: 0px 0px 10px 0px;
+    color: black;
+}
+aside h2 {
+    padding: 30px 0px 10px 0px;    
+}
+footer {
+    font-size: 75%;
+    color: black;
+}
