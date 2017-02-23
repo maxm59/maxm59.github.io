@@ -1,57 +1,35 @@
-<!DOCTYPE HTML>
-<!--About Us page needs: background, text, pictures and links-->
-
-<head>
-    <title> .com</title>
-    <meta name="author" content="Maxine Cutler">
-    <link href="../main.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="bodycss.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-  
-</head>
-
-<div class="wrapper">
+<!DOCTYPE html>
+<!--This is the beginning of CIT261 Mobile Application Development
+For Individual Assignments
+-->
+<html lang="en-us"> 
+    <head>
+        <title> Maxi | CIT 261 Assignments </title>
+        <meta name="author" content="Maxi Cutler">
+        <link rel="stylesheet" href="style.css" type="text/css"/>
+        <script type="text/javascript" src="recent.js"></script>
+        <meta charset="utf-8">
+    </head>
     <header>
-         <h1>Main Header</h1>
+    <h1>Customize Your Hawaiian Vacation Packages</h1>
+        <div class="vacation">
+            <input type="text" name="vacationActivity" placeholder="Activity">
+            <input type="number" name="vacationCode" placeholder="# of Persons">
+            <input type="text" name="vacationPrice" placeholder="Price Per Person">
+            <input type="text" name="vacationTotal" placeholder="Total Price">
+        </div>
     </header>
-    <section class ="services">
-        <article>
-            <hgroup>
-                <h2>Headers: see bodycss</h2>
-                <h3>Smaller headers</h3>
-            </hgroup>
-        </article>
-        <article>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/HOV0AQHeE7Q" frameborder="0" allowfullscreen></iframe>
-                <figcaption>Sample of Embedded picture</figcaption>
-            <hgroup>
-                <h2>Titles </h2>
-            </hgroup>
-            <p>Descriptive paragraphs.</p>
-        </article>
-        <article>
-            <figure>
-                <img src="images/hawaiianchants.jpg" alt="Ancient Hula"/>
-                <figcaption>Merrie Monarch Festivals</figcaption>
-            </figure>
-            <p>todo later</p>
-        <h3>Disclaimer: The purpose of this web site is to fulfill course requirement for CIT261-Mobile Application Development Course for Brigham Young University-Idaho.</h3>
-        <footer>
-            <p>to do later</p>
-        </footer>
-        </article>
-    </section>
-        <aside>
-            <section>
-                <h2>About Us</h2>
-                <h2>Popular Links</h2>
-                <a href="http://www.merriemonarch.com/">Sample only update with inserts later</a>
-            </section>
-            <section>
-                <h2>Contact Us </h2>
-                <p>Footer notations</p>
-            </section>              
-        </aside>
-</div>
-
+    <header>
+            <button type="button" name="addVacation">Add Activity</button>
+            <button type="button" name="clearRecent">Clear Recent</button>
+        <div class="container recent">
+    
+            <h3>This is a list of activities you would like to do while vacationing in Hawaii.</h3>
+            <h5>For further information about these activities click on links below.</h5>
+            <nav>
+             <!--add  vacation information links here--> 
+            </nav>
+             </div> 
+    </header>
+        
+</html>
